@@ -4,8 +4,8 @@ import {
   PageHeader,
   Searchbar,
   SearchFilter,
-} from "../../@core/components";
-import { MonthsFilter, ProductsData } from "../../@core/utils/data";
+} from "../../core/components";
+import { MonthsFilter, ProductsData } from "../../core/utils/data";
 
 const Customers = () => {
   //Search Filter Hook

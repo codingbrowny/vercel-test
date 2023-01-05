@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { ManageReviewsData } from "../../../@core/utils/data";
+import { ManageReviewsData } from "../../../core/utils/data";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import TurnLeftRoundedIcon from "@mui/icons-material/TurnLeftRounded";
-import { DataTable, PageHeader, TableFilters } from "../../../@core/components";
+import { DataTable, PageHeader, TableFilters } from "../../../core/components";
 import Image from "next/image";
-import ProductImg from "../../../@core/utils/products/product4.jpg";
+import ProductImg from "../../../core/utils/products/product4.jpg";
 import StarIcon from "@mui/icons-material/Star";
 import { Avatar, Rating, IconButton, Button, Dialog } from "@mui/material";
-import { useAppDispatch, useAppSelector } from "../../../@core/hooks/useRedux";
+import { useAppDispatch, useAppSelector } from "../../../core/hooks/useRedux";
 import { getReviewData } from "../../../redux/features/review/review-slice";
 
 const ReviewManagement = () => {

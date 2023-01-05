@@ -4,10 +4,10 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import { DataTable, PageHeader, TableFilters } from "../../../@core/components";
+import { DataTable, PageHeader, TableFilters } from "../../../core/components";
 import Tabs from "@mui/material/Tabs";
 import Typography from "@mui/material/Typography";
-import { CustomerManagementData, SellerManagementData } from "../../../@core/utils/data";
+import { CustomerManagementData, SellerManagementData } from "../../../core/utils/data";
 
 const UserManagement = () => {
     const [value, setValue] = React.useState("1");

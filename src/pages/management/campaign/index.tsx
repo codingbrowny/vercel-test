@@ -1,7 +1,7 @@
 import React, { ChangeEvent } from "react";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
-import { CampaignData } from "../../../@core/utils/data";
+import { CampaignData } from "../../../core/utils/data";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import TurnLeftRoundedIcon from "@mui/icons-material/TurnLeftRounded";
 import {
@@ -10,7 +10,7 @@ import {
   FileDropzone,
   PageHeader,
   TableFilters,
-} from "../../../@core/components";
+} from "../../../core/components";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { TextField } from "@mui/material";

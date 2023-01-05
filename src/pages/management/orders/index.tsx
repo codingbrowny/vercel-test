@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { DataTable, PageHeader, Searchbar, SearchFilter, TableFilters } from '../../../@core/components'
-import { MonthsFilter, OrdersData } from '../../../@core/utils/data';
+import { DataTable, PageHeader, Searchbar, SearchFilter, TableFilters } from '../../../core/components'
+import { MonthsFilter, OrdersData } from '../../../core/utils/data';
 
 const OrderManagement = () => {
     const [filter, setFilter] = useState(MonthsFilter[0]);

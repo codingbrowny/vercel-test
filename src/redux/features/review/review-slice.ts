@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ManageReviewsData } from "../../../@core/utils/data";
+import { ManageReviewsData } from "../../../core/utils/data";
 
 const { Data } = ManageReviewsData
 type reviewType = typeof Data[0]

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import {Suspense, lazy} from "react"
 import Grid from "@mui/material/Grid"
-import { DataMap, DataTable, GridItem, PageHeader, Statistics, ItemProgress, Spinner } from "../../../@core/components"
-import { TopSellersData, BestSellingProducts, TopCustommers } from "../../../@core/utils/data";
+import { DataMap, DataTable, GridItem, PageHeader, Statistics, ItemProgress, Spinner } from "../../../core/components"
+import { TopSellersData, BestSellingProducts, TopCustommers } from "../../../core/utils/data";
 import GroupsIcon from '@mui/icons-material/Groups';
 import CategoryIcon from '@mui/icons-material/Category';
 import TrendingUpOutlinedIcon from "@mui/icons-material/TrendingUpOutlined";
@@ -12,7 +12,7 @@ import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 
 const ManagementDashboard = () => {
 
-    const Map = lazy(() => import("../../../@core/components/map"))
+    const Map = lazy(() => import("../../../core/components/map"))
 
     const defaultProps = {
         center: {

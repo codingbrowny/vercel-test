@@ -17,7 +17,7 @@ import {
   SystemUser,
   RemoveMember,
   RevokeInvite,
-} from "../../../@core/components";
+} from "../../../core/components";
 import IconButton from "@mui/material/IconButton";
 import DeleteOutlinedIcon from "@mui/icons-material/DeleteOutlined";
 

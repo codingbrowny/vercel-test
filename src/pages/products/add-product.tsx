@@ -1,17 +1,17 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
 import { Button, IconButton, Chip } from "@mui/material";
-import UploadImage from "../../@core/utils/images/imageSvg.png";
+import UploadImage from "../../core/utils/images/imageSvg.png";
 import {
   InputField,
   PageHeader,
   ImageUploader,
   ProductPreview,
   FileDropzone,
-} from "../../@core/components";
+} from "../../core/components";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import TurnLeftRoundedIcon from "@mui/icons-material/TurnLeftRounded";
-import { getFileDetails, returnSize } from "../../@core/utils/file-size-calc";
+import { getFileDetails, returnSize } from "../../core/utils/file-size-calc";
 
 /** Add Product Header Buttons */
 const CancelAddProductBtns = () => (

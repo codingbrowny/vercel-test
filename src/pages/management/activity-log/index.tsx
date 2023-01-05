@@ -1,6 +1,6 @@
 import React from "react";
-import { DataTable, PageHeader, TableFilters } from "../../../@core/components";
-import { ActivityLogData } from "../../../@core/utils/data";
+import { DataTable, PageHeader, TableFilters } from "../../../core/components";
+import { ActivityLogData } from "../../../core/utils/data";
 
 const ActivityLogs = () => {
   const { Column, Data } = ActivityLogData;

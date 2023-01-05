@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { DataTable, Searchbar, SearchFilter } from '../../@core/components';
+import { DataTable, Searchbar, SearchFilter } from '../../core/components';
 
-import { MonthsFilter, OrdersData } from '../../@core/utils/data';
+import { MonthsFilter, OrdersData } from '../../core/utils/data';
 
 const OrdersPages = () => {
   const { Columns, Data } = OrdersData;

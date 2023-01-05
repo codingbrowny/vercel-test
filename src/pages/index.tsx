@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { DataTable, DoughnutChart, ItemProgress, StatisticsBar } from "../@core/components";
-import { RecentOrders } from "../@core/utils/data";
+import { DataTable, DoughnutChart, ItemProgress, StatisticsBar } from "../core/components";
+import { RecentOrders } from "../core/utils/data";
 
 interface StatHeaderInterface {
   title: string;
